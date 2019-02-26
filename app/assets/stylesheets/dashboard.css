@@ -10,12 +10,12 @@
 /*
  * Top navigation
  * Hide default border to remove 1px line.
- */
+
 .navbar-fixed-top {
   border: 0;
   padding-top: 5px;
 }
-
+ */
 
 @media (max-width: 1380px) {
     div#contenedor_mapa > div.embed-responsive, #contenedor_fotos, div#contenedor_mapa > div.embed-responsive h6{

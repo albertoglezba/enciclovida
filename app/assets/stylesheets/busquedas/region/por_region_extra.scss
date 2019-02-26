@@ -1,9 +1,13 @@
 body{
-    background-color: #ececec;
+  /*background-color: #ececec;*/
+  /*padding-top: 70px;*/
 }
 #map {
-    min-height: 620px;
+    min-height: 760px;
     width: 100%;
+}
+.leaflet-top {
+  top: 120px;
 }
 .panel-resultados {
     text-align: left;
@@ -26,6 +30,13 @@ body{
 
 #especies img{max-height: 120px;}
 
+.filtros-region{
+  top: -240px;
+  z-index: 999;
+}
+.filtros-region > div{
+  background-color: #eaeaea36;
+}
 .region, .selecciona-region {
     fill: black;
     opacity: .2;

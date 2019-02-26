@@ -17,7 +17,9 @@ var cargaMapa = function (id)
         noWrap: true
     });
     // Google Hybrid
-    var GHM_layer = L.tileLayer('http://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}',{
+    //var GHM_layer = L.tileLayer('http://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}',{
+    // maptiler
+    var GHM_layer = L.tileLayer('https://maps.tilehosting.com/styles/topo/{z}/{x}/{y}.png?key=zlRxsCdX8uurAv6boyCD',{
         subdomains:['mt0','mt1','mt2','mt3'],
         zIndex: 3,
         noWrap: true

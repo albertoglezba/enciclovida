@@ -28,12 +28,12 @@
 
 /*Brandbar es la plequita negra al inicio de cada página*/
 #brandBar {
-  background-repeat: no-repeat !important;
+/*  background-repeat: no-repeat !important;
   background-attachment: fixed !important;
   background-size: cover !important;
-  background-position: bottom !important;
+  background-position: bottom !important;*/
   background-color: rgba(51, 51, 51, 0.75);
-  padding: 30px;
+  padding: 20px 0 10px 0;
 }
 #brandBar .dropdown {
   position: fixed;
@@ -74,24 +74,24 @@
   color: #423434 !important;
 }
 .contenedor-titulo-busquedas{
-  height: 104px;
+/*  height: 104px;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(236, 236, 236, 0.8));
   background: #544a22;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
   background-size: cover !important;
-  background-position: bottom !important;
+  background-position: bottom !important;*/
 }
 .titulo-busquedas{
-  width: 1032px;
+/*  width: 1032px;*/
   margin: 8px auto;
-  font-size: 40px;
+  font-size: 35px;
   font-family: "acumin-pro-extra-condensed";
-  -webkit-text-shadow: 2px 2px 2px #000;
-  -moz-text-shadow: 2px 2px 2px #000;
-  -ms-text-shadow: 2px 2px 2px #000;
-  -o-text-shadow: 2px 2px 2px #000;
-  text-shadow: 2px 2px 2px #000;
+  //-webkit-text-shadow: 2px 2px 2px #000;
+  //-moz-text-shadow: 2px 2px 2px #000;
+  //-ms-text-shadow: 2px 2px 2px #000;
+  //-o-text-shadow: 2px 2px 2px #000;
+  //text-shadow: 2px 2px 2px #000;
   color: #ffffff;
 }
 .contenedor-titulo-busquedas .liner {

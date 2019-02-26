@@ -295,9 +295,11 @@ $(document).ready(function(){
 
     /**
      * Para que aparezca la barra del scroll en las especies
+     * comentado para evitar momentaneamente el  scroll
      */
-    $(window).load(function()
-    {
-        $("html,body").animate({scrollTop: 122}, 1000);
+    //$(window).load(function(){$("html,body").animate({scrollTop: 122}, 1000);});
+    $(window).load(function(){
+        x = window.innerHeight;
+        $('#map').css('min-height', x-10);
     });
 });
