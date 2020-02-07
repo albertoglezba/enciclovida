@@ -16,6 +16,8 @@ var soulmateAsigna = function(tipo_busqueda, elem)
             var nombres = '<h5> ' + data.nombre_comun + '</h5>' + '<h5><a href="" class="not-active">' + data.nombre_cientifico + ' </a><i>' + data.autoridad + '</i></h5><h5>&nbsp;</h5>';
             return nombres;
         }else{
+            data.nombre_cientifico = limpiar(data.nombre_cientifico);
+            
             if(data.nombre_comun == null) {
                 var nombres = '<a href="" class="not-active">' + data.nombre_cientifico + '</a>';
             }else {
@@ -77,7 +79,8 @@ var soulmateAsigna = function(tipo_busqueda, elem)
                 break;
             default:
                 // Para no pasar por el controlador de busquedas, ir directo a la especie, solo busqueda basica
-                window.location.replace('/especies/' + data.id);
+                var nom_cientifico = data.nombre_cientifico.trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'').replace(/[\(\)]/g, '');
+                window.location.replace('/especies/'  + data.id + '-' + nom_cientifico);
                 $('#id').attr('value', data.id); //TODO arreglar el ID id ¬.¬ !>.> pffff
         }
     };
@@ -88,6 +91,7 @@ var soulmateAsigna = function(tipo_busqueda, elem)
         renderCallback: render,
         selectCallback: select,
         minQueryLength: 2,
-        maxResults:     5
+        maxResults:     5,
+        timeout:        3500
     });
 };

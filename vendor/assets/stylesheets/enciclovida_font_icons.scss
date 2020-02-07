@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'enciclovida_font_icons';
-  src: font-url('enciclovida_font_icons.eot?31691648');
-  src: font-url('enciclovida_font_icons.eot?31691648#iefix') format('embedded-opentype'),
-       font-url('enciclovida_font_icons.woff2?31691648') format('woff2'),
-       font-url('enciclovida_font_icons.woff?31691648') format('woff'),
-       font-url('enciclovida_font_icons.ttf?31691648') format('truetype'),
-       font-url('enciclovida_font_icons.svg?31691648#enciclovida_font_icons') format('svg');
+  src: font-url('enciclovida_font_icons.eot?63364616');
+  src: font-url('enciclovida_font_icons.eot?63364616#iefix') format('embedded-opentype'),
+       font-url('enciclovida_font_icons.woff2?63364616') format('woff2'),
+       font-url('enciclovida_font_icons.woff?63364616') format('woff'),
+       font-url('enciclovida_font_icons.ttf?63364616') format('truetype'),
+       font-url('enciclovida_font_icons.svg?63364616#enciclovida_font_icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'enciclovida_font_icons';
-    src: font-url('enciclovida_font_icons.svg?31691648#enciclovida_font_icons') format('svg');
+    src: font-url('enciclovida_font_icons.svg?63364616#enciclovida_font_icons') format('svg');
   }
 }
 */
@@ -63,7 +63,7 @@
 .myxini-ev-icon:before { content: '\e805'; } /* '' */
 .animalia-ev-icon:before { content: '\e806'; } /* '' */
 .mammalia-ev-icon:before { content: '\e807'; } /* '' */
-.chondrichthyes-ev-icon:before { content: '\e808'; } /* '' */
+.crustacea-ev-icon:before { content: '\e808'; } /* '' */
 .cnidaria-ev-icon:before { content: '\e809'; } /* '' */
 .arachnida-ev-icon:before { content: '\e80a'; } /* '' */
 .myriapoda-ev-icon:before { content: '\e80b'; } /* '' */
@@ -72,15 +72,15 @@
 .porifera-ev-icon:before { content: '\e80e'; } /* '' */
 .echinodermata-ev-icon:before { content: '\e80f'; } /* '' */
 .mollusca-ev-icon:before { content: '\e810'; } /* '' */
-.crustacea-ev-icon:before { content: '\e811'; } /* '' */
+.vulnerable-vu-evaluacion-conabio-ev-icon:before { content: '\e811'; } /* '' */
 .plantae-ev-icon:before { content: '\e812'; } /* '' */
 .bryophyta-ev-icon:before { content: '\e813'; } /* '' */
-.pteridophyta-ev-icon:before { content: '\e814'; } /* '' */
-.cycadophyta-ev-icon:before { content: '\e815'; } /* '' */
-.gnetophyta-ev-icon:before { content: '\e816'; } /* '' */
-.liliopsida-ev-icon:before { content: '\e817'; } /* '' */
-.coniferophyta-ev-icon:before { content: '\e818'; } /* '' */
-.magnoliopsida-ev-icon:before { content: '\e819'; } /* '' */
+.polypodiidae-ev-icon:before { content: '\e814'; } /* '' */
+.cycadidae-ev-icon:before { content: '\e815'; } /* '' */
+.anthocerotophyta-ev-icon:before { content: '\e816'; } /* '' */
+.lilianae-ev-icon:before { content: '\e817'; } /* '' */
+.pinidae-ev-icon:before { content: '\e818'; } /* '' */
+.magnoliidae-ev-icon:before { content: '\e819'; } /* '' */
 .fungi-ev-icon:before { content: '\e81a'; } /* '' */
 .prokaryotae-ev-icon:before { content: '\e81b'; } /* '' */
 .protoctista-ev-icon:before { content: '\e81c'; } /* '' */
@@ -116,7 +116,7 @@
 .menor-ev-icon:before { content: '\e83a'; } /* '' */
 .dulceacuicola-ev-icon:before { content: '\e83b'; } /* '' */
 .newspaper-ev-icon:before { content: '\e83c'; } /* '' */
-.cobi-ev-icon:before { content: '\e83d'; } /* '' */
+.cobi-1-ev-icon:before { content: '\e83d'; } /* '' */
 .doc-text-ev-icon:before { content: '\e83e'; } /* '' */
 .busqueda-avanzada-ev-icon:before { content: '\e83f'; } /* '' */
 .file-pdf-ev-icon:before { content: '\e840'; } /* '' */
@@ -132,7 +132,7 @@
 .peces-mariscos-comerciales-ev-icon:before { content: '\e84a'; } /* '' */
 .datos-ecologicos-ev-icon:before { content: '\e84b'; } /* '' */
 .flow-cascade-ev-icon:before { content: '\e84c'; } /* '' */
-.semaforo-moderado-ev-icon:before { content: '\e84d'; } /* '' */
+.sujetas-a-proteccion-especial-pr-evaluacion-conabio-ev-icon:before { content: '\e84d'; } /* '' */
 .conabio-ev-icon:before { content: '\e84e'; } /* '' */
 .ev1-ev-icon:before { content: '\e84f'; } /* '' */
 .vida-ev-icon:before { content: '\e850'; } /* '' */
@@ -169,5 +169,18 @@
 .cornell_lab_yellow-ev-icon:before { content: '\e86f'; } /* '' */
 .macaulay_library-ev-icon:before { content: '\e870'; } /* '' */
 .bdi-ev-icon:before { content: '\e871'; } /* '' */
+.cobi-ev-icon:before { content: '\e872'; } /* '' */
+.importado-ev-icon:before { content: '\e873'; } /* '' */
+.semaforo-moderado-ev-icon:before { content: '\e874'; } /* '' */
+.chondrichthyes-ev-icon:before { content: '\e875'; } /* '' */
+.preocupacion-menor-lc-evaluacion-conabio-ev-icon:before { content: '\e876'; } /* '' */
+.extinto-ex-evaluacion-conabio-ev-icon:before { content: '\e877'; } /* '' */
+.extinto-en-estado-silvestre-ew-evaluacion-conabio-ev-icon:before { content: '\e878'; } /* '' */
+.en-peligro-en-evaluacion-conabio-ev-icon:before { content: '\e879'; } /* '' */
+.en-peligro-de-extincion-p-evaluacion-conabio-ev-icon:before { content: '\e87a'; } /* '' */
+.en-peligro-critico-cr-evaluacion-conabio-ev-icon:before { content: '\e87b'; } /* '' */
+.datos-insuficientes-dd-evaluacion-conabio-ev-icon:before { content: '\e87c'; } /* '' */
+.casi-amenazado-nt-evaluacion-conabio-ev-icon:before { content: '\e87d'; } /* '' */
+.amenazada-a-evaluacion-conabio-ev-icon:before { content: '\e87e'; } /* '' */
 .circle-ev-icon:before { content: '\f111'; } /* '' */
 .copyright-ev-icon:before { content: '\f1f9'; } /* '' */
